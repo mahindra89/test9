@@ -26,7 +26,7 @@ algo = st.radio("Choose STRF Algorithm", ("STRF Scheduling with Quantum Time", "
 st.markdown("---")
 
 # --------------------------------------------
-# ALGORITHM 1: STRF WITH QUANTUM TIME
+# ALGORITHM 1: STRF WITH QUANTUM TIME 
 # --------------------------------------------
 if algo == "STRF with Quantum Time":
     st.title("STRF Scheduling with quantum time")
