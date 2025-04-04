@@ -206,7 +206,7 @@ if algo == "STRF with Quantum Time":
 # --------------------------------------------
 
 elif algo == "Special STRF (Without Quantum Time)":
-st.title("STRF Scheduling (without quantum time)")
+    st.title("STRF Scheduling (without quantum time)")
     col1, col2, col3 = st.columns(3)
 with col1:
     num_jobs = st.number_input("Number of Jobs", 1, 10, 3)
