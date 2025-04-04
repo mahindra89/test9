@@ -22,14 +22,14 @@ st.markdown("""
 st.title("STRF Scheduler")
 
 # --- Algorithm Selection ---
-algo = st.radio("Choose STRF Algorithm", ("STRF with Quantum Time", "Special STRF (Without Quantum Time)"))
+algo = st.radio("Choose STRF Algorithm", ("STRF Scheduling with Quantum Time", "STRF Scheduling Without Quantum Time"))
 st.markdown("---")
 
 # --------------------------------------------
 # ALGORITHM 1: STRF WITH QUANTUM TIME
 # --------------------------------------------
 if algo == "STRF with Quantum Time":
-    st.title("STRF Scheduling (with quantum time)")
+    st.title("STRF Scheduling with quantum time")
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
