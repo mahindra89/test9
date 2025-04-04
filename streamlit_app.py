@@ -125,7 +125,7 @@ def run_without_quantum():
             burst = st.number_input(f"Burst Time for J{i+1}", value=default.get('burst', 3.0), key=f"woq_burst_{i}")
         processes.append({'id': f'J{i+1}', 'arrival_time': arrival, 'burst_time': burst})
 
-    if st.button("Run Special STRF", key="woq_run"):
+    if st.button("Run Simulation", key="woq_run"):
         simulate(processes, num_cpus, chunk_unit, quantum_time=None)
 
 # --- Core Simulation Logic ---
