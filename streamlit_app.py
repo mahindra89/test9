@@ -204,6 +204,7 @@ if algo == "STRF with Quantum Time":
 # --------------------------------------------
 # ALGORITHM 2: STRF WITHOUT QUANTUM TIME
 # --------------------------------------------
+st.title("STRF Scheduling (without quantum time)")
 elif algo == "Special STRF (Without Quantum Time)":
     col1, col2, col3 = st.columns(3)
 with col1:
@@ -362,4 +363,4 @@ if st.button("Run Special STRF"):
     st.pyplot(plot_gantt(), use_container_width=True)
     # Paste CODE 2 here without modification...
     # Let me know if you'd like me to paste the full second part too.
-    st.write("Insert the second algorithm's code block here (you already provided it).")
+    #st.write("Insert the second algorithm's code block here (you already provided it).")
