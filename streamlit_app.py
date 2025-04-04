@@ -28,8 +28,8 @@ st.markdown("---")
 # --------------------------------------------
 # ALGORITHM 1: STRF WITH QUANTUM TIME 
 # --------------------------------------------
-if algo == "STRF with Quantum Time":
-    st.title("STRF Scheduling with quantum time")
+if algo == "STRF Scheduling with Quantum Time":
+    st.title("STRF Scheduling with Quantum time")
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
@@ -205,7 +205,7 @@ if algo == "STRF with Quantum Time":
 # ALGORITHM 2: STRF WITHOUT QUANTUM TIME
 # --------------------------------------------
 
-elif algo == "Special STRF (Without Quantum Time)":
+elif algo == "STRF Scheduling Without Quantum Time":
     st.title("STRF Scheduling (without quantum time)")
     col1, col2, col3 = st.columns(3)
 with col1:
